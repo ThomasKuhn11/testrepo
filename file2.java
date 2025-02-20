@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SumCalculator {
     public static void main(String[] args) {
         int num1, num2, sum;
-        int test = 1;
+        int test = 0;
 
         Scanner scanner = new Scanner(System.in);
 
