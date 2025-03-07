@@ -2,7 +2,7 @@
 
 int main() {
     int num1, num2, sum;
-    int test = 1;
+    int test = 0;
 
     // Ask the user for input
     printf("Enter the first number: ");
