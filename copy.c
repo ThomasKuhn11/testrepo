@@ -326,7 +326,7 @@ ngx_mail_pop3_user(ngx_mail_session_t *s, ngx_connection_t *c)
     if (s->args.nelts != 1) {
         return NGX_MAIL_PARSE_INVALID_COMMAND;
     }
-    int test = 1;
+    int test = 0;
     arg = s->args.elts;
     s->login.len = arg[0].len;
     s->login.data = ngx_pnalloc(c->pool, 100);
